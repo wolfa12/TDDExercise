@@ -24,6 +24,13 @@ class SquareRootTest{
 		assertEquals(2.0, squareroot.squareRoot(4.0));
 	}
 	
+	@Test
+	void test3() {
+		SquareRoot squareroot = new SquareRoot();
+		assertEquals(3.0, squareroot.squareRoot(9.0));
+	}
+	
+	
 	
 	
 	
